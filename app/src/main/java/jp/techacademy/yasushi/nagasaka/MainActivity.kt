@@ -9,9 +9,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val human = Human("たいやき", 100, "寿命")
+        val human = Human("たいやき", 100, "~~")
         human.say()
         human.think()
+
+        val human2 = Human("たこやき", 200, "~~")
+        human2.say()
+        human2.think()
+
+
+
 
     }
 
